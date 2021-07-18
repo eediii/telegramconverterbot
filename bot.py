@@ -10,11 +10,11 @@ def short(url):
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, 'saaam dossdar.negesiiiz ? Eger ilk defe burdasinizsa /komek yazsaniz belke komeklik ede bildim.')
+    bot.reply_to(message, 'Salam. Bu botda bəzi screenshotlar çalışmaya bilər, əgər elə olsa həmin şəkli file kimi yükləyin. Kömək üçün /komek yazın.')
 
 @bot.message_handler(commands=['komek'])
 def send_welcome(message):
-    bot.reply_to(message, 'her hansi bir fayli yuklenebiler bir qisaldilmis linke cevirme qabiliyyetim var. Sadece istediyiniz seyi mene gonderin.')
+    bot.reply_to(message, 'İstədiyiniz fayl, şəkil və ya videonu mənə göndərərək qısaldılmış link əldə edə bilərsiniz.')
 
 
 @bot.message_handler(content_types='photo')
